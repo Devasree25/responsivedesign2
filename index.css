@@ -15,7 +15,7 @@
 }
 #background{
   position: relative;
-  top: 150px;
+  top: 10px;
 }
 
 body {
@@ -46,6 +46,9 @@ body {
 .section-container {
   flex-direction: column;
   padding: 5%;
+  position: relative;
+  bottom: 550px;
+  
 }
 
 .space-between {
@@ -109,6 +112,7 @@ header h5 {
   color: white;
   padding: 7px;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .buy img {
